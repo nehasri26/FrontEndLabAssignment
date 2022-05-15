@@ -1,0 +1,105 @@
+.parent{
+    height: 400px;
+    width: 200px;
+    background-color: #eeeeee;
+    
+}
+.animationDiv{
+    height: 80%;
+}
+
+.bar {
+    width: 40px;
+    margin: 10px;
+    margin-top: 0px !important;
+}
+.whitebar{
+    background-color: white;
+    width: 40px;
+    margin: 10px;
+    margin-bottom: 0px !important;
+}
+.outerdiv{
+    display: inline-block;
+    height: auto;
+    height: 100%;
+}
+#bar1{
+    background-color: grey;
+    height: 30%;
+    animation-name: bar1animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes bar1animation {
+    from {height: 0%;}
+    to {height: 30%;}
+}
+
+#whitebar1{
+    height: 70%;
+    animation-name: whitebar1animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes whitebar1animation {
+    from {height: 100%;}
+    to {height: 70%;}
+  }
+
+  #bar2{
+    background-color: grey;
+    height: 40%;
+    animation-name: bar2animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes bar2animation {
+    from {height: 0%;}
+    to {height: 40%;}
+  }
+
+  #whitebar2{
+    height: 60%;
+    animation-name: whitebar2animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes whitebar2animation {
+    from {height: 100%;}
+    to {height: 60%;}
+  }
+
+
+  #bar3{
+    background-color: grey;
+    height: 80%;
+    animation-name: bar3animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes bar3animation {
+    from {height: 0%;}
+    to {height: 80%;}
+  }
+
+  #whitebar3{
+    height: 20%;
+    animation-name: whitebar3animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes whitebar3animation {
+    from {height: 100%;}
+    to {height: 20%;}
+  }
+
+  .parent > label {
+    position: relative;
+    bottom: -20px;
+    left: 40px;
+}
+
+    .outerdiv label{
+        margin-left:18px;
+    }
